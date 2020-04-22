@@ -90,7 +90,7 @@ const handler = function() {
 // function to clear the table
 const resetTable = function() {
     tbody.html('');
-  renderTable(tableData);
+	renderTable(tableData);
 };
 
 // after the user enters an input AND hits Enter (return key), the handler function will execute
